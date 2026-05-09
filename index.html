@@ -86,7 +86,7 @@
   }
   .cards-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 28px;
   }
   @media (max-width: 900px) {
@@ -236,6 +236,11 @@
   .card-skills .topic { background: #FFF3E0; color: #E65100; }
   .card-skills .card-link { color: #E65100; border-color: #E65100; }
   .card-skills .card-link:hover { background: #E65100; color: white; }
+
+  .card-quant {  }
+  .card-quant .card-icon { background: linear-gradient(135deg, #1B5E20, #388E3C); }
+  .card-quant .card-link { color: #2E7D32; border-color: #2E7D32; }
+  .card-quant .card-link:hover { background: #2E7D32; color: white; }
   .card-skills:hover { box-shadow: 0 12px 40px rgba(230,81,0,0.15), 0 4px 12px rgba(0,0,0,0.06); }
 
   /* ── Footer ── */
@@ -368,6 +373,40 @@
       </div>
       <div class="card-footer">
         <a class="card-link" href="https://ghoulvspol.github.io/claude-skills-orange-book/" target="_blank">
+          阅读全文
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 4: AI Quant -->
+    <div class="card card-quant">
+      <div class="card-header">
+        <div class="card-icon">&#128200;</div>
+        <div class="card-tag">Orange Paper 04</div>
+        <h2 class="card-title">AI 量化分析 橙皮书</h2>
+        <p class="card-desc">用大模型和多智能体，重新定义量化交易。从数据工程到实盘部署的完整链路。</p>
+      </div>
+      <div class="card-body">
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">25</span>
+            <span class="stat-label">章节</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">7</span>
+            <span class="stat-label">Part</span>
+          </div>
+        </div>
+        <div class="card-topics">
+          <span class="topic">多智能体</span>
+          <span class="topic">因子挖掘</span>
+          <span class="topic">LLM应用</span>
+          <span class="topic">实盘部署</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a class="card-link" href="https://ghoulvspol.github.io/ai-quant-orange-book/" target="_blank">
           阅读全文
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
         </a>
